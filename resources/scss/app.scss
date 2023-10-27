@@ -1,1 +1,15 @@
-@import '~bootstrap/scss/bootstrap';
+@use '~bootstrap/scss/bootstrap';
+
+
+
+main {
+    min-height: 100vh;
+}
+
+
+footer {
+    background-image: url('../img/footer-bg.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
